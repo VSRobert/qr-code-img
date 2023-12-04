@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 56px;
+    font-family: 'Press Start 2P', cursive;
+    color: #D3D3D3 !important;
+    position: relative;
+    top: 50%;
+    z-index: 2; /* Set a higher z-index for h1 */
+    top: 0;
+    color: rgba(51, 51, 51, 0.7);
+  }
+  
+  form {
+    margin-top: 20px;
+    position: relative;
+    z-index: 2; /* Set a higher z-index for form */
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    
+  }
+  
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #00f; /* Blue background color */
+    color: #fff; /* White text color */
+    border: 2px solid #fff; /* White border */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  button:hover {
+    background-color: #fff; /* White background color on hover */
+    color: #00f; /* Blue text color on hover */
+  }
+  
+  
+  #background-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Set a lower z-index for the first image */
+
+  }
+  
+  #generated-qr {
+    margin-top: 0px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 2; /* Set a higher z-index for the second image */
+    opacity: 0.9;
+
+  }
+  
+  #main-page {
+    justify-content: center;
+    text-align: center;
+  }
